@@ -8,6 +8,25 @@ h1{
     color: #FA804C;
 }
 
+.image-bg{
+    background: #f5f1f1;
+    border-radius: 15px;
+    padding: 25px;
+}
+.card-bg{
+    border-radius: 15px;
+}
+
+.shoes-price{
+    color: #FA804C;
+    font-weight: 700;
+    font-size: 38px;
+}
+.card-btn{
+    text-transform: uppercase;
+    border-radius: 8px;
+}
+
 
 @media (max-width: 767px) { 
     h1{
