@@ -28,6 +28,13 @@ h1{
 }
 
 
+/* service part css */
+
+.service-items{
+    border-radius: 15px;
+}
+
+
 @media (max-width: 767px) { 
     h1{
     font-size: 60px;
