@@ -7,11 +7,19 @@
     <title>Nike React</title>
     <!-- bootstrap cdn  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!-- google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css"> 
+    
 
 </head>
 <body>
     
-    <!-- header part start -->
+    <!--------------------------------------- header part start -------------------------------------->
     <header>
         <!-- menu part starts -->
         <section>
@@ -20,6 +28,9 @@
                   <a class="navbar-brand" href="#">
                     <img src="icons/Logo.png" width="220" height="31" alt="" >
                   </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0 font-500 ">
                       <li class="nav-item me-3">
@@ -41,12 +52,22 @@
         </section>
         <!-- menu part ends -->
         <!-- banner part starts. -->
-        <section class="container">
-            
+        <section class="container my-5">
+            <div class="row">
+                <div class="col-lg-7 col-md-6 col-12  pe-5 order-2 order-lg-1">
+                    <img class="w-100 " src="images/Group 33092.png" alt="">
+                </div>
+                <div class="col-lg-5 col-md-6 col-12 order-sm-last mt-4 order-1 order-lg-2">
+                    <h1 class="fw-bold mt-4" ><span class="head-1">Nike React</span> <span class="head-2">Infinity run 2</span></h1>
+                    <p class="mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <button class="btn btn-primary mt-4">Buy Now</button>
+                </div>
+            </div>
         </section>
+        <!-- banner part ends. -->
 
     </header>
-    <!-- header part ends -->
+    <!--------------------------------------- header part ends --------------------------------------->
 
     <!-- main part starts -->
     <main>
